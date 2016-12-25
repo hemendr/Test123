@@ -17,7 +17,7 @@ import org.json.JSONObject;
  
 public class CrunchifyRESTServiceClient {
 	public static void main(String[] args) {
-		String string = "";
+		String string = new String("");
 		try {
  
 			// Step1: Let's 1st read file from fileSystem
