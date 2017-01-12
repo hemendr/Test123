@@ -23,7 +23,9 @@ public class CrunchifyRESTService {
 	@POST
 	@Path("/crunchifyService")
 	@Consumes(MediaType.APPLICATION_JSON)
-	public Response crunchifyREST(InputStream incomingData) {
+	public Response crunchifyREST(InputStream incomingData) 
+	{
+		String str = new String();
 		StringBuilder crunchifyBuilder = new StringBuilder();
 		try {
 			BufferedReader in = new BufferedReader(new InputStreamReader(incomingData));
