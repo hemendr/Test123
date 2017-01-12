@@ -26,6 +26,7 @@ public class CrunchifyRESTService {
 	public Response crunchifyREST(InputStream incomingData) 
 	{
 		String str = new String();
+		System.out.println("TEST");
 		StringBuilder crunchifyBuilder = new StringBuilder();
 		try {
 			BufferedReader in = new BufferedReader(new InputStreamReader(incomingData));
