@@ -25,6 +25,7 @@ public class CrunchifyRESTService {
 	@Consumes(MediaType.APPLICATION_JSON)
 	public Response crunchifyREST(InputStream incomingData) 
 	{
+		int x=0;
 		String str = new String();
 		System.out.println("TEST");
 		StringBuilder crunchifyBuilder = new StringBuilder();
